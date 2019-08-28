@@ -1,0 +1,197 @@
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    font-size: 15px;
+    color: black;
+}
+a:hover, a:focus {
+    color: rgb(14, 143, 143);
+    text-decoration: none;
+}
+
+.logo-link {
+  color: rgb(14, 143, 143);
+}
+
+.active-link {
+  color: rgb(14, 143, 143);
+}
+
+.navbar {
+  background-color: rgb(6, 95, 95);
+}
+
+.Dok {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+}
+.scroll {
+  overflow: auto;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+}
+
+textarea {
+  width: 100%; /* Ширина поля в процентах */
+  height: 150px; /* Высота поля в пикселах */
+  resize: none; /* Запрещаем изменять размер */
+ } 
+
+.d {display:block; width:100%; height:100%;}
+#top {
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  width: 85px;
+  height: 1500px;
+  background-color: lightgray;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#circle {
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: green;
+}
+.new-photo {
+  background-color: white;
+}
+.new-photo:hover, .new-photo:focus {
+  background-color: lightgray;
+}
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.btn-post {
+  background-color:  white;
+  width: 100%;
+  color: black;
+  text-align: left;
+}
+
+.btn-post:hover, .btn-post:focus {
+  background-color: white;
+  color: black;
+}
+
+.btn-rep {
+    background-color:  rgb(228, 255, 255);
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+
+.btn-rep:hover, .btn-rep:focus {
+    background-color: white;
+    color: black;
+}
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto-Regular.woff') format('woff'),
+  url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    src: url('OpenSans-ExtraBold.eot');
+    src: url('OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-ExtraBold.woff') format('woff'),
+    url('OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto Regular';
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.menu {  
+  font-family: 'Pacifico', cursive;
+}
+
+#post:hover {
+  background-color: rgb(240, 240, 240); 
+}
+
+.timer {
+    text-align: center;
+    font-weight: 100;
+}
+
+.countdown-title {
+    color: #000;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  .countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #00bf96;
+    display: inline-block;
+  }
+  
+  .countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816a;
+    display: inline-block;
+  }
+  
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+  /*
+///*****************
+*/
